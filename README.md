@@ -1,4 +1,4 @@
-# railrl-ut
+# deltaco
 
 ## Introduction
 This codebase contains the training code and algorithm for the DeL-TaCo paper:
