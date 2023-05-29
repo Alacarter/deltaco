@@ -91,7 +91,7 @@ def get_generic_path_information(paths, stat_prefix=''):
                 for p in paths
             ]
             for k in all_env_infos[0].keys():
-                if (not isinstance(all_env_infos[0][k], Number)
+                if not (isinstance(all_env_infos[0][k], Number)
                     or isinstance(all_env_infos[0][k], np.ndarray)
                     or isinstance(all_env_infos[0][k][0], Number)):
                     continue
